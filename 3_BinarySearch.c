@@ -17,7 +17,7 @@ int BinarySearch(int arr[], int target,int s,int e){
         return -1;
     }
     int m = s+(e-s)/2;      
-    if(arr[m]== target){
+    if(arr[m]==target){
         return m;
     }
     if(arr[m] < target){
